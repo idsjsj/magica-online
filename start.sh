@@ -2,6 +2,9 @@
 # Xvfb (가상 디스플레이) 시작
 Xvfb :0 -screen 0 1280x720x16 &
 
+# DISPLAY 환경변수 설정
+export DISPLAY=:0
+
 # 윈도우 매니저 실행
 fluxbox &
 
